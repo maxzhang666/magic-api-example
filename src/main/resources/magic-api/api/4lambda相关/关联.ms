@@ -4,21 +4,22 @@
   "script" : null,
   "groupId" : "aa81e76ddfd7471a97aa423abd80b2aa",
   "name" : "关联",
-  "createTime" : null,
+  "createTime" : 1645934424324,
   "updateTime" : 1632192523522,
   "lock" : null,
-  "method" : "GET",
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/join",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
   "paths" : [ ],
   "responseBody" : null,
   "description" : null,
   "requestBodyDefinition" : null,
-  "responseBodyDefinition" : null,
-  "optionMap" : { }
+  "responseBodyDefinition" : null
 }
 ================================
 return db.camel().select('select api_name,api_group_id from magic_api_info')

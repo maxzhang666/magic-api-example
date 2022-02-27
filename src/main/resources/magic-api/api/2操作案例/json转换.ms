@@ -4,13 +4,15 @@
   "script" : null,
   "groupId" : "d528abe95ca74f3cb195425afd7415af",
   "name" : "json转换",
-  "createTime" : null,
+  "createTime" : 1645934424199,
   "updateTime" : 1632190472967,
   "lock" : null,
-  "method" : "GET",
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/json",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
   "paths" : [ ],
@@ -125,8 +127,7 @@
       "expression" : "",
       "children" : [ ]
     } ]
-  },
-  "optionMap" : { }
+  }
 }
 ================================
 var json = {

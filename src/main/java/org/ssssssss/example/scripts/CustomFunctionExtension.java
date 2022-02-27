@@ -6,7 +6,7 @@ import org.ssssssss.script.functions.ExtensionMethod;
 
 /**
  * 自定义扩展方法
- * https://ssssssss.org/guide/custom/extension.html
+ * https://ssssssss.org/pages/senior/extension/
  * @see ExtensionMethod
  */
 public class CustomFunctionExtension implements ExtensionMethod {

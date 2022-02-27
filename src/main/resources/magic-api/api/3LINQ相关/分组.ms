@@ -4,21 +4,22 @@
   "script" : null,
   "groupId" : "8b4ffb920a6e4758ae142ccda0685519",
   "name" : "分组",
-  "createTime" : null,
+  "createTime" : 1645934424272,
   "updateTime" : 1632192548427,
   "lock" : null,
-  "method" : "GET",
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/group",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
   "paths" : [ ],
   "responseBody" : null,
   "description" : null,
   "requestBodyDefinition" : null,
-  "responseBodyDefinition" : null,
-  "optionMap" : { }
+  "responseBodyDefinition" : null
 }
 ================================
 return 

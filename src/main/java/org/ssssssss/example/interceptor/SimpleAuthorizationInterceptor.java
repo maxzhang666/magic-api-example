@@ -6,10 +6,10 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
-import org.ssssssss.magicapi.exception.MagicLoginException;
-import org.ssssssss.magicapi.interceptor.Authorization;
-import org.ssssssss.magicapi.interceptor.AuthorizationInterceptor;
-import org.ssssssss.magicapi.interceptor.MagicUser;
+import org.ssssssss.magicapi.core.context.MagicUser;
+import org.ssssssss.magicapi.core.exception.MagicLoginException;
+import org.ssssssss.magicapi.core.interceptor.Authorization;
+import org.ssssssss.magicapi.core.interceptor.AuthorizationInterceptor;
 
 import javax.servlet.http.HttpServletRequest;
 import java.io.UnsupportedEncodingException;

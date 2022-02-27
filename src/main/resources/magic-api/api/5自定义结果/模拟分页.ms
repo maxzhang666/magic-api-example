@@ -4,21 +4,22 @@
   "script" : null,
   "groupId" : "2b0ce800b6c543efa284ae695e14e4eb",
   "name" : "模拟分页",
-  "createTime" : null,
+  "createTime" : 1645934424379,
   "updateTime" : 1632192356360,
   "lock" : null,
-  "method" : "GET",
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/page",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
   "paths" : [ ],
   "responseBody" : null,
   "description" : null,
   "requestBodyDefinition" : null,
-  "responseBodyDefinition" : null,
-  "optionMap" : { }
+  "responseBodyDefinition" : null
 }
 ================================
 import response;

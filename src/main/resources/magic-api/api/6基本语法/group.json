@@ -1,7 +1,10 @@
 {
+  "properties" : { },
   "id" : "a02fb62b1c7e4fb3ada92a799a15d733",
   "name" : "6基本语法",
-  "type" : "1",
+  "type" : "api",
   "parentId" : "0",
-  "path" : "/base"
+  "path" : "/base",
+  "paths" : [ ],
+  "options" : [ ]
 }

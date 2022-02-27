@@ -1,7 +1,10 @@
 {
+  "properties" : { },
   "id" : "08c2af4fd56543e690b14515d83d66ae",
   "name" : "1SQL相关",
-  "type" : "1",
+  "type" : "api",
   "parentId" : "0",
-  "path" : "/sql"
+  "path" : "/sql",
+  "paths" : [ ],
+  "options" : [ ]
 }

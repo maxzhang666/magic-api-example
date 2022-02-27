@@ -1,13 +1,13 @@
 package org.ssssssss.example.provider;
 
-import org.ssssssss.magicapi.provider.LanguageProvider;
+import org.ssssssss.magicapi.jsr223.LanguageProvider;
 
 import java.util.Map;
 
 /**
  * 自定义脚本语言
- * https://ssssssss.org/guide/custom/language.html
- * @see org.ssssssss.magicapi.provider.LanguageProvider
+ * https://ssssssss.org/magic-api/pages/senior/script/
+ * @see org.ssssssss.magicapi.jsr223.LanguageProvider
  */
 public class CustomLanguageProvider implements LanguageProvider {
 

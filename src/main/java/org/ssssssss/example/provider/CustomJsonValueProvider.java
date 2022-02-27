@@ -1,15 +1,15 @@
 package org.ssssssss.example.provider;
 
-import org.ssssssss.magicapi.model.JsonBean;
-import org.ssssssss.magicapi.model.JsonCodeConstants;
-import org.ssssssss.magicapi.model.RequestEntity;
-import org.ssssssss.magicapi.provider.ResultProvider;
+import org.ssssssss.magicapi.core.config.JsonCodeConstants;
+import org.ssssssss.magicapi.core.context.RequestEntity;
+import org.ssssssss.magicapi.core.interceptor.ResultProvider;
+import org.ssssssss.magicapi.core.model.JsonBean;
 
 /**
  * 自定义JSON结果
- * https://ssssssss.org/guide/custom/json.html
- * @see org.ssssssss.magicapi.provider.ResultProvider
- * @see org.ssssssss.magicapi.provider.impl.DefaultResultProvider
+ * https://ssssssss.org/magic-api/pages/base/response/
+ * @see org.ssssssss.magicapi.core.interceptor.ResultProvider
+ * @see org.ssssssss.magicapi.core.interceptor.DefaultResultProvider
  */
 public class CustomJsonValueProvider implements ResultProvider {
 

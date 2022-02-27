@@ -4,21 +4,22 @@
   "script" : null,
   "groupId" : "d528abe95ca74f3cb195425afd7415af",
   "name" : "调用其他接口",
-  "createTime" : null,
+  "createTime" : 1645934424232,
   "updateTime" : 1632192550771,
   "lock" : null,
-  "method" : "GET",
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/call",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
   "paths" : [ ],
   "responseBody" : null,
   "description" : null,
   "requestBodyDefinition" : null,
-  "responseBodyDefinition" : null,
-  "optionMap" : { }
+  "responseBodyDefinition" : null
 }
 ================================
 import '@get:/base/module/assert' as test;

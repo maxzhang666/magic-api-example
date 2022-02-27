@@ -4,11 +4,13 @@
   "script" : null,
   "groupId" : "1f1767129e1243fe91e873f62d6954d2",
   "name" : "手动验证参数",
-  "createTime" : null,
+  "createTime" : 1645934424537,
   "updateTime" : 1632190833333,
   "lock" : null,
-  "method" : "GET",
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/assert",
+  "method" : "GET",
   "parameters" : [ {
     "name" : "message",
     "value" : "1",
@@ -34,7 +36,7 @@
     "expression" : null,
     "children" : null
   } ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
   "paths" : [ ],
@@ -113,8 +115,7 @@
       "expression" : "",
       "children" : [ ]
     } ]
-  },
-  "optionMap" : { }
+  }
 }
 ================================
 assert message != null : 0, 'message 不能为null'

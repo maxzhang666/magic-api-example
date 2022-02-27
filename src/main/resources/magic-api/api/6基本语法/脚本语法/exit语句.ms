@@ -4,13 +4,15 @@
   "script" : null,
   "groupId" : "1534958e40ff4037a50bd9d3c25bceb5",
   "name" : "exit语句",
-  "createTime" : null,
+  "createTime" : 1645934424400,
   "updateTime" : 1632192308978,
   "lock" : null,
-  "method" : "GET",
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/exit",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
   "paths" : [ ],
@@ -89,8 +91,7 @@
       "expression" : "",
       "children" : [ ]
     } ]
-  },
-  "optionMap" : { }
+  }
 }
 ================================
 if(true){

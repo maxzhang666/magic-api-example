@@ -8,10 +8,8 @@ import org.ssssssss.example.provider.*;
 import org.ssssssss.example.scripts.CustomFunction;
 import org.ssssssss.example.scripts.CustomFunctionExtension;
 import org.ssssssss.example.scripts.CustomModule;
-import org.ssssssss.magicapi.adapter.Resource;
-import org.ssssssss.magicapi.config.MagicDynamicDataSource;
-import org.ssssssss.magicapi.provider.GroupServiceProvider;
-import org.ssssssss.magicapi.provider.PageProvider;
+import org.ssssssss.magicapi.datasource.model.MagicDynamicDataSource;
+import org.ssssssss.magicapi.modules.db.provider.PageProvider;
 
 import javax.sql.DataSource;
 
@@ -26,7 +24,7 @@ public class MagicAPIConfiguration {
 	/**
 	 * 配置多数据源
 	 *
-	 * @see MagicDynamicDataSource
+	 * @see org.ssssssss.magicapi.datasource.model.MagicDynamicDataSource
 	 */
 	@Bean
 	public MagicDynamicDataSource magicDynamicDataSource(DataSource dataSource) {
@@ -115,14 +113,6 @@ public class MagicAPIConfiguration {
 	// @Bean
 	public CustomMapperProvider customMapperProvider() {
 		return new CustomMapperProvider();
-	}
-
-	/**
-	 * 自定义接口脚本加解密
-	 */
-	// @Bean
-	public CustomApiServiceProvider customApiServiceProvider(Resource resource, GroupServiceProvider groupServiceProvider) {
-		return new CustomApiServiceProvider(resource, groupServiceProvider);
 	}
 
 }

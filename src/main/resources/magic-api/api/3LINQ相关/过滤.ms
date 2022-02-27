@@ -1,19 +1,25 @@
 {
+  "properties" : { },
   "id" : "112e04509b274bb8bbac347e29787e21",
   "script" : null,
   "groupId" : "8b4ffb920a6e4758ae142ccda0685519",
   "name" : "过滤",
-  "createTime" : 1615983206716,
+  "createTime" : 1645934424308,
   "updateTime" : 1615983206716,
-  "method" : "GET",
+  "lock" : null,
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/filter",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
+  "paths" : [ ],
   "responseBody" : null,
   "description" : null,
-  "optionMap" : { }
+  "requestBodyDefinition" : null,
+  "responseBodyDefinition" : null
 }
 ================================
 var list = [{

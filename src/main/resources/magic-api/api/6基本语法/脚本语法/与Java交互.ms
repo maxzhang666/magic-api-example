@@ -4,13 +4,15 @@
   "script" : null,
   "groupId" : "1534958e40ff4037a50bd9d3c25bceb5",
   "name" : "与Java交互",
-  "createTime" : null,
+  "createTime" : 1645934424421,
   "updateTime" : 1632190978682,
   "lock" : null,
-  "method" : "GET",
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/java",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
   "paths" : [ ],
@@ -89,8 +91,7 @@
       "expression" : "",
       "children" : [ ]
     } ]
-  },
-  "optionMap" : { }
+  }
 }
 ================================
 import 'java.util.Date' as Date;

@@ -1,7 +1,10 @@
 {
+  "properties" : { },
   "id" : "aa81e76ddfd7471a97aa423abd80b2aa",
   "name" : "4lambda相关",
-  "type" : "1",
+  "type" : "api",
   "parentId" : "0",
-  "path" : "/lambda"
+  "path" : "/lambda",
+  "paths" : [ ],
+  "options" : [ ]
 }

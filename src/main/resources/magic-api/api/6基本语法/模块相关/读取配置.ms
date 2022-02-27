@@ -4,21 +4,22 @@
   "script" : null,
   "groupId" : "1f1767129e1243fe91e873f62d6954d2",
   "name" : "读取配置",
-  "createTime" : null,
+  "createTime" : 1645934424548,
   "updateTime" : 1632192300742,
   "lock" : null,
-  "method" : "GET",
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/env",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
   "paths" : [ ],
   "responseBody" : null,
   "description" : null,
   "requestBodyDefinition" : null,
-  "responseBodyDefinition" : null,
-  "optionMap" : { }
+  "responseBodyDefinition" : null
 }
 ================================
 import env; 

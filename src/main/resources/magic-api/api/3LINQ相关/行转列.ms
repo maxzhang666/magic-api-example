@@ -4,21 +4,22 @@
   "script" : null,
   "groupId" : "8b4ffb920a6e4758ae142ccda0685519",
   "name" : "行转列",
-  "createTime" : null,
+  "createTime" : 1645934424300,
   "updateTime" : 1632192538946,
   "lock" : null,
-  "method" : "GET",
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/pivot",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
   "paths" : [ ],
   "responseBody" : null,
   "description" : null,
   "requestBodyDefinition" : null,
-  "responseBodyDefinition" : null,
-  "optionMap" : { }
+  "responseBodyDefinition" : null
 }
 ================================
 var result = db.select('select api_method,api_group_id from magic_api_info');

@@ -4,21 +4,22 @@
   "script" : null,
   "groupId" : "1534958e40ff4037a50bd9d3c25bceb5",
   "name" : "扩展运算符",
-  "createTime" : null,
+  "createTime" : 1645934424454,
   "updateTime" : 1632192313276,
   "lock" : null,
-  "method" : "GET",
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/spread",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
   "paths" : [ ],
   "responseBody" : null,
   "description" : null,
   "requestBodyDefinition" : null,
-  "responseBodyDefinition" : null,
-  "optionMap" : { }
+  "responseBodyDefinition" : null
 }
 ================================
 var map = {

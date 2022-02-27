@@ -1,16 +1,17 @@
 package org.ssssssss.example.interceptor;
 
-import org.ssssssss.magicapi.interceptor.SQLInterceptor;
-import org.ssssssss.magicapi.model.RequestEntity;
-import org.ssssssss.magicapi.modules.BoundSql;
+
+import org.ssssssss.magicapi.core.context.RequestEntity;
+import org.ssssssss.magicapi.modules.db.BoundSql;
+import org.ssssssss.magicapi.modules.db.inteceptor.SQLInterceptor;
 
 import java.util.Arrays;
 
 
 /**
  * 自定义SQL拦截器
- * https://ssssssss.org/guide/custom/sql.html
- * @see org.ssssssss.magicapi.interceptor.SQLInterceptor
+ * https://ssssssss.org/magic-api/pages/senior/sql-interceptor/
+ * @see org.ssssssss.magicapi.modules.db.inteceptor.SQLInterceptor
  */
 public class CustomSqlInterceptor implements SQLInterceptor {
 

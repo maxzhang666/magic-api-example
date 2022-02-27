@@ -1,19 +1,25 @@
 {
+  "properties" : { },
   "id" : "6521572bd9334bd59d7648ac47e79c2e",
   "script" : null,
   "groupId" : "1f1767129e1243fe91e873f62d6954d2",
   "name" : "mongo",
-  "createTime" : 1615983549524,
+  "createTime" : 1645934424527,
   "updateTime" : 1615983549524,
-  "method" : "GET",
+  "lock" : null,
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/mongo",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
+  "paths" : [ ],
   "responseBody" : null,
   "description" : null,
-  "optionMap" : { }
+  "requestBodyDefinition" : null,
+  "responseBodyDefinition" : null
 }
 ================================
 /*

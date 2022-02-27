@@ -4,11 +4,13 @@
   "script" : null,
   "groupId" : "1f1767129e1243fe91e873f62d6954d2",
   "name" : "打印日志",
-  "createTime" : null,
+  "createTime" : 1645934424542,
   "updateTime" : 1632192289015,
   "lock" : null,
-  "method" : "GET",
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/log",
+  "method" : "GET",
   "parameters" : [ {
     "name" : "message",
     "value" : "hello magic-api",
@@ -22,7 +24,7 @@
     "expression" : null,
     "children" : null
   } ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
   "paths" : [ ],
@@ -101,8 +103,7 @@
       "expression" : "",
       "children" : [ ]
     } ]
-  },
-  "optionMap" : { }
+  }
 }
 ================================
 import log;

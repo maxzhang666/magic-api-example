@@ -1,19 +1,25 @@
 {
+  "properties" : { },
   "id" : "626d38774a4c48d0b2bc96f59df087b2",
   "script" : null,
   "groupId" : "8b4ffb920a6e4758ae142ccda0685519",
   "name" : "空值转换",
-  "createTime" : 1615983123252,
+  "createTime" : 1645934424288,
   "updateTime" : 1615983123252,
-  "method" : "GET",
+  "lock" : null,
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/null",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
+  "paths" : [ ],
   "responseBody" : null,
   "description" : null,
-  "optionMap" : { }
+  "requestBodyDefinition" : null,
+  "responseBodyDefinition" : null
 }
 ================================
 var list = [

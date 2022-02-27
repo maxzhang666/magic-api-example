@@ -1,7 +1,10 @@
 {
+  "properties" : { },
   "id" : "8b4ffb920a6e4758ae142ccda0685519",
   "name" : "3LINQ相关",
-  "type" : "1",
+  "type" : "api",
   "parentId" : "0",
-  "path" : "/linq"
+  "path" : "/linq",
+  "paths" : [ ],
+  "options" : [ ]
 }

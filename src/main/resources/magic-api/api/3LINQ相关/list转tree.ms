@@ -1,19 +1,25 @@
 {
+  "properties" : { },
   "id" : "d6858902837a4b63b4bc9a2292dc8ee5",
   "script" : null,
   "groupId" : "8b4ffb920a6e4758ae142ccda0685519",
   "name" : "list转tree",
-  "createTime" : 1615983226114,
+  "createTime" : 1645934424254,
   "updateTime" : 1615983226114,
-  "method" : "GET",
+  "lock" : null,
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/tree",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
+  "paths" : [ ],
   "responseBody" : null,
   "description" : null,
-  "optionMap" : { }
+  "requestBodyDefinition" : null,
+  "responseBodyDefinition" : null
 }
 ================================
 

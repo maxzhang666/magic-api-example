@@ -1,7 +1,10 @@
 {
+  "properties" : { },
   "id" : "2b0ce800b6c543efa284ae695e14e4eb",
   "name" : "5自定义结果",
-  "type" : "1",
+  "type" : "api",
   "parentId" : "0",
-  "path" : "/response"
+  "path" : "/response",
+  "paths" : [ ],
+  "options" : [ ]
 }

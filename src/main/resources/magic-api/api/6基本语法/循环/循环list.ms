@@ -4,21 +4,22 @@
   "script" : null,
   "groupId" : "fcab7c3c199b42a39d87da01c78633b3",
   "name" : "循环list",
-  "createTime" : null,
+  "createTime" : 1645934424517,
   "updateTime" : 1632192389251,
   "lock" : null,
-  "method" : "GET",
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/list",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
   "paths" : [ ],
   "responseBody" : null,
   "description" : null,
   "requestBodyDefinition" : null,
-  "responseBodyDefinition" : null,
-  "optionMap" : { }
+  "responseBodyDefinition" : null
 }
 ================================
 /*

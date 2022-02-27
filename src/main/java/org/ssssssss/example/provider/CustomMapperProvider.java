@@ -1,11 +1,12 @@
 package org.ssssssss.example.provider;
 
-import org.ssssssss.magicapi.provider.ColumnMapperProvider;
+
+import org.ssssssss.magicapi.modules.db.provider.ColumnMapperProvider;
 
 /**
  * 自定义列名转换
- * https://ssssssss.org/guide/custom/column.html
- * @see org.ssssssss.magicapi.provider.ColumnMapperProvider
+ * https://ssssssss.org/magic-api/pages/senior/mapping/
+ * @see org.ssssssss.magicapi.modules.db.provider.ColumnMapperProvider
  */
 public class CustomMapperProvider implements ColumnMapperProvider {
 

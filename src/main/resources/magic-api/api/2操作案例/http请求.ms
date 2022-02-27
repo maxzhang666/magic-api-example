@@ -4,13 +4,15 @@
   "script" : null,
   "groupId" : "d528abe95ca74f3cb195425afd7415af",
   "name" : "http请求",
-  "createTime" : null,
+  "createTime" : 1645934424187,
   "updateTime" : 1632190441120,
   "lock" : null,
-  "method" : "GET",
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/http",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
   "paths" : [ ],
@@ -113,8 +115,7 @@
       "expression" : "",
       "children" : [ ]
     } ]
-  },
-  "optionMap" : { }
+  }
 }
 ================================
 import http;

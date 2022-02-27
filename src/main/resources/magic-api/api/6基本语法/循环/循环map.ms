@@ -1,26 +1,30 @@
 {
   "properties" : { },
-  "id" : "6ff3d4617ac24aa6b31088f919c6c6c5",
+  "id" : "e1b2f29804134742a457fd996c4137a8",
   "script" : null,
   "groupId" : "fcab7c3c199b42a39d87da01c78633b3",
-  "name" : "lambda循环map",
-  "createTime" : null,
-  "updateTime" : 1632192402318,
+  "name" : "循环map",
+  "createTime" : 1645934424522,
+  "updateTime" : 1632192392713,
   "lock" : null,
+  "createBy" : "666",
+  "updateBy" : null,
+  "path" : "/map",
   "method" : "GET",
-  "path" : "/lambda/map",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
   "paths" : [ ],
   "responseBody" : null,
   "description" : null,
   "requestBodyDefinition" : null,
-  "responseBodyDefinition" : null,
-  "optionMap" : { }
+  "responseBodyDefinition" : null
 }
 ================================
+/*
+    测试循环Map
+*/
 var map = {
     key1 : 1,
     key2 : 2,
@@ -28,9 +32,8 @@ var map = {
 };
 var sum = 0;
 var keys = '';
-map.each((key,value) => {
-    keys += key;
-    sum += value;
-
-})
+for(key,value in map){
+    sum = sum + value;
+    keys = keys + key
+}
 return keys + '-' + sum;

@@ -4,21 +4,22 @@
   "script" : null,
   "groupId" : "1534958e40ff4037a50bd9d3c25bceb5",
   "name" : "可选连",
-  "createTime" : null,
+  "createTime" : 1645934424428,
   "updateTime" : 1632192324973,
   "lock" : null,
-  "method" : "GET",
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/optional",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
   "paths" : [ ],
   "responseBody" : null,
   "description" : null,
   "requestBodyDefinition" : null,
-  "responseBodyDefinition" : null,
-  "optionMap" : { }
+  "responseBodyDefinition" : null
 }
 ================================
 var map = {

@@ -1,6 +1,6 @@
 package org.ssssssss.example.scripts;
 
-import org.ssssssss.magicapi.config.MagicFunction;
+import org.ssssssss.magicapi.core.config.MagicFunction;
 import org.ssssssss.script.annotation.Comment;
 import org.ssssssss.script.annotation.Function;
 import org.ssssssss.script.functions.DateExtension;
@@ -9,8 +9,7 @@ import java.util.Date;
 
 /**
  * 自定义函数
- * https://ssssssss.org/guide/custom/function.html
- * @see org.ssssssss.magicapi.config.MagicFunction
+ * https://ssssssss.org/magic-api/pages/senior/function/
  */
 public class CustomFunction implements MagicFunction {
 

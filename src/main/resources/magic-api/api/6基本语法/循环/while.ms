@@ -4,13 +4,15 @@
   "script" : null,
   "groupId" : "fcab7c3c199b42a39d87da01c78633b3",
   "name" : "while",
-  "createTime" : null,
+  "createTime" : 1645934424512,
   "updateTime" : 1632192517615,
   "lock" : null,
-  "method" : "GET",
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/while",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
   "paths" : [ ],
@@ -101,8 +103,7 @@
       "expression" : "",
       "children" : [ ]
     } ]
-  },
-  "optionMap" : { }
+  }
 }
 ================================
 var index = 0;

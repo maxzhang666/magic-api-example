@@ -1,19 +1,25 @@
 {
+  "properties" : { },
   "id" : "8c5642b3f026430db18c5e2cf223ea41",
   "script" : null,
   "groupId" : "aa81e76ddfd7471a97aa423abd80b2aa",
   "name" : "list转tree",
-  "createTime" : 1615983313969,
+  "createTime" : 1645934424317,
   "updateTime" : 1615983313969,
-  "method" : "GET",
+  "lock" : null,
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/tree",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
+  "paths" : [ ],
   "responseBody" : null,
   "description" : null,
-  "optionMap" : { }
+  "requestBodyDefinition" : null,
+  "responseBodyDefinition" : null
 }
 ================================
 //var toTree = (list,parentId)=>list.filter(it => it.parent_id == parentId).each(it=>it.children = toTree(list,it.id))

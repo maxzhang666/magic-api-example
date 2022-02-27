@@ -1,19 +1,25 @@
 {
+  "properties" : { },
   "id" : "affaed31406c477790ded329f844a620",
   "script" : null,
   "groupId" : "08c2af4fd56543e690b14515d83d66ae",
   "name" : "动态参数判断",
-  "createTime" : null,
+  "createTime" : 1645934424128,
   "updateTime" : null,
-  "method" : "GET",
+  "lock" : null,
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/params",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
+  "paths" : [ ],
   "responseBody" : "{\n    \"code\": 1,\n    \"message\": \"success\",\n    \"data\": \"ok\",\n    \"timestamp\": 1615818676485,\n    \"executeTime\": 99\n}",
   "description" : null,
-  "optionMap" : { }
+  "requestBodyDefinition" : null,
+  "responseBodyDefinition" : null
 }
 ================================
 var ids = ['1','2','3'];

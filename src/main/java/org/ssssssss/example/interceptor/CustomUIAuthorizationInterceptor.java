@@ -1,16 +1,16 @@
 package org.ssssssss.example.interceptor;
 
-import org.ssssssss.magicapi.exception.MagicLoginException;
-import org.ssssssss.magicapi.interceptor.Authorization;
-import org.ssssssss.magicapi.interceptor.AuthorizationInterceptor;
-import org.ssssssss.magicapi.interceptor.MagicUser;
+import org.ssssssss.magicapi.core.context.MagicUser;
+import org.ssssssss.magicapi.core.exception.MagicLoginException;
+import org.ssssssss.magicapi.core.interceptor.Authorization;
+import org.ssssssss.magicapi.core.interceptor.AuthorizationInterceptor;
 
 import javax.servlet.http.HttpServletRequest;
 
 /**
  * 自定义UI界面鉴权
- * https://ssssssss.org/guide/custom/authorization.html
- * @see org.ssssssss.magicapi.interceptor.AuthorizationInterceptor
+ * https://ssssssss.org/magic-api/pages/security/operation/
+ * @see org.ssssssss.magicapi.core.interceptor.AuthorizationInterceptor
  */
 public class CustomUIAuthorizationInterceptor implements AuthorizationInterceptor {
 
@@ -24,9 +24,9 @@ public class CustomUIAuthorizationInterceptor implements AuthorizationIntercepto
 
 	/**
 	 * 自定义登录方法
-	 *
-	 * @param username 用户名
+	 *  @param username 用户名
 	 * @param password 密码
+	 * @return
 	 */
 	@Override
 	public MagicUser login(String username, String password) throws MagicLoginException {

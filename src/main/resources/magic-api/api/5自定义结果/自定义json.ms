@@ -1,19 +1,25 @@
 {
+  "properties" : { },
   "id" : "a35baae914f64a2784d0fa2b6a281bbb",
   "script" : null,
   "groupId" : "2b0ce800b6c543efa284ae695e14e4eb",
   "name" : "自定义json",
-  "createTime" : 1615984006439,
+  "createTime" : 1645934424393,
   "updateTime" : 1615984006439,
-  "method" : "GET",
+  "lock" : null,
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/json",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
+  "paths" : [ ],
   "responseBody" : null,
   "description" : null,
-  "optionMap" : { }
+  "requestBodyDefinition" : null,
+  "responseBodyDefinition" : null
 }
 ================================
 import response;

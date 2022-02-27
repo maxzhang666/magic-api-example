@@ -4,21 +4,22 @@
   "script" : null,
   "groupId" : "2b0ce800b6c543efa284ae695e14e4eb",
   "name" : "文件下载",
-  "createTime" : null,
+  "createTime" : 1645934424372,
   "updateTime" : 1632192377589,
   "lock" : null,
-  "method" : "GET",
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/download",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
   "paths" : [ ],
   "responseBody" : null,
   "description" : null,
   "requestBodyDefinition" : null,
-  "responseBodyDefinition" : null,
-  "optionMap" : { }
+  "responseBodyDefinition" : null
 }
 ================================
 import response;

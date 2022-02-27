@@ -4,21 +4,22 @@
   "script" : null,
   "groupId" : "08c2af4fd56543e690b14515d83d66ae",
   "name" : "事务",
-  "createTime" : null,
+  "createTime" : 1645934424089,
   "updateTime" : 1632192556731,
   "lock" : null,
-  "method" : "GET",
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/transaction",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
   "paths" : [ ],
   "responseBody" : null,
   "description" : null,
   "requestBodyDefinition" : null,
-  "responseBodyDefinition" : null,
-  "optionMap" : { }
+  "responseBodyDefinition" : null
 }
 ================================
 // 自动事务

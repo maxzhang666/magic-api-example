@@ -1,19 +1,25 @@
 {
+  "properties" : { },
   "id" : "c7f7004a8e104663aa04361587bfb6b7",
   "script" : null,
   "groupId" : "2b0ce800b6c543efa284ae695e14e4eb",
   "name" : "生成验证码",
-  "createTime" : 1615984025930,
+  "createTime" : 1645934424385,
   "updateTime" : 1615984025930,
-  "method" : "GET",
+  "lock" : null,
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "image",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
+  "paths" : [ ],
   "responseBody" : null,
   "description" : null,
-  "optionMap" : { }
+  "requestBodyDefinition" : null,
+  "responseBodyDefinition" : null
 }
 ================================
 import 'java.awt.image.BufferedImage' as BufferedImage;

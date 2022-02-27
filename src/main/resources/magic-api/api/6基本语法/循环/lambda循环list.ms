@@ -4,21 +4,22 @@
   "script" : null,
   "groupId" : "fcab7c3c199b42a39d87da01c78633b3",
   "name" : "lambda循环list",
-  "createTime" : null,
+  "createTime" : 1645934424502,
   "updateTime" : 1632192396966,
   "lock" : null,
-  "method" : "GET",
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/lambda/list",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
   "paths" : [ ],
   "responseBody" : null,
   "description" : null,
   "requestBodyDefinition" : null,
-  "responseBodyDefinition" : null,
-  "optionMap" : { }
+  "responseBodyDefinition" : null
 }
 ================================
 var list = [1,2,3,4,5,6,7,8,9,10]

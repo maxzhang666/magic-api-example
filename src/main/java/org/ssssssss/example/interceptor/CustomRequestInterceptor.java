@@ -3,10 +3,10 @@ package org.ssssssss.example.interceptor;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.ssssssss.magicapi.interceptor.RequestInterceptor;
-import org.ssssssss.magicapi.model.ApiInfo;
-import org.ssssssss.magicapi.model.JsonBean;
-import org.ssssssss.magicapi.model.Options;
+import org.ssssssss.magicapi.core.interceptor.RequestInterceptor;
+import org.ssssssss.magicapi.core.model.ApiInfo;
+import org.ssssssss.magicapi.core.model.JsonBean;
+import org.ssssssss.magicapi.core.model.Options;
 import org.ssssssss.script.MagicScriptContext;
 
 import javax.servlet.http.HttpServletRequest;
@@ -14,8 +14,8 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * 自定义请求拦截器，可实现鉴权
- * https://ssssssss.org/guide/custom/interceptor.html
- * @see org.ssssssss.magicapi.interceptor.RequestInterceptor
+ * https://ssssssss.org/magic-api/pages/senior/interceptor/
+ * @see org.ssssssss.magicapi.core.interceptor.RequestInterceptor
  */
 public class CustomRequestInterceptor implements RequestInterceptor {
 

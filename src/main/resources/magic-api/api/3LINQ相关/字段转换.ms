@@ -1,19 +1,25 @@
 {
+  "properties" : { },
   "id" : "4710d409607a4b2aba00b028e8d36dad",
   "script" : null,
   "groupId" : "8b4ffb920a6e4758ae142ccda0685519",
   "name" : "字段转换",
-  "createTime" : 1615983269672,
+  "createTime" : 1645934424278,
   "updateTime" : 1615983269672,
-  "method" : "GET",
+  "lock" : null,
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/map",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
+  "paths" : [ ],
   "responseBody" : null,
   "description" : null,
-  "optionMap" : { }
+  "requestBodyDefinition" : null,
+  "responseBodyDefinition" : null
 }
 ================================
 var list = [{

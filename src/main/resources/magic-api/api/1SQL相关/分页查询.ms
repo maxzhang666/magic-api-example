@@ -1,12 +1,16 @@
 {
+  "properties" : { },
   "id" : "a105153610374cb4a8102852542c2b7d",
   "script" : null,
   "groupId" : "08c2af4fd56543e690b14515d83d66ae",
   "name" : "分页查询",
-  "createTime" : null,
+  "createTime" : 1645934424115,
   "updateTime" : null,
-  "method" : "GET",
+  "lock" : null,
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/page",
+  "method" : "GET",
   "parameters" : [ {
     "name" : "page",
     "value" : "1",
@@ -17,25 +21,29 @@
     "defaultValue" : "1",
     "validateType" : null,
     "error" : null,
-    "expression" : null
+    "expression" : null,
+    "children" : null
   }, {
     "name" : "size",
     "value" : "2",
     "description" : "页大小",
     "required" : false,
-    "dataType" : null,
+    "dataType" : "String",
     "type" : null,
     "defaultValue" : null,
     "validateType" : null,
     "error" : null,
-    "expression" : null
+    "expression" : null,
+    "children" : null
   } ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
+  "paths" : [ ],
   "responseBody" : "{\n    \"code\": 1,\n    \"message\": \"success\",\n    \"data\": {\n        \"total\": 49,\n        \"list\": [\n            {\n                \"api_name\": \"文件下载\"\n            },\n            {\n                \"api_name\": \"读取配置\"\n            }\n        ]\n    },\n    \"timestamp\": 1615817365659,\n    \"executeTime\": 28\n}",
   "description" : null,
-  "optionMap" : { }
+  "requestBodyDefinition" : null,
+  "responseBodyDefinition" : null
 }
 ================================
 var sql = """

@@ -1,19 +1,25 @@
 {
+  "properties" : { },
   "id" : "02f99c967c184fa4a7c7f360864f08dc",
   "script" : null,
   "groupId" : "aa81e76ddfd7471a97aa423abd80b2aa",
   "name" : "过滤和转换",
-  "createTime" : 1615983383200,
+  "createTime" : 1645934424364,
   "updateTime" : 1615983383200,
-  "method" : "GET",
+  "lock" : null,
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/filter-map",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
+  "paths" : [ ],
   "responseBody" : null,
   "description" : null,
-  "optionMap" : { }
+  "requestBodyDefinition" : null,
+  "responseBodyDefinition" : null
 }
 ================================
 var list = [{

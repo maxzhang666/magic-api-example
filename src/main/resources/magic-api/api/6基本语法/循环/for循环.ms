@@ -4,21 +4,22 @@
   "script" : null,
   "groupId" : "fcab7c3c199b42a39d87da01c78633b3",
   "name" : "for循环",
-  "createTime" : null,
+  "createTime" : 1645934424498,
   "updateTime" : 1632192395083,
   "lock" : null,
-  "method" : "GET",
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/for",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
   "paths" : [ ],
   "responseBody" : null,
   "description" : null,
   "requestBodyDefinition" : null,
-  "responseBodyDefinition" : null,
-  "optionMap" : { }
+  "responseBodyDefinition" : null
 }
 ================================
 /*

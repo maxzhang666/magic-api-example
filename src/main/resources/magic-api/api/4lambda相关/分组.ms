@@ -1,19 +1,25 @@
 {
+  "properties" : { },
   "id" : "1c65487a57b2457eb5d13b066889ee76",
   "script" : null,
   "groupId" : "aa81e76ddfd7471a97aa423abd80b2aa",
   "name" : "分组",
-  "createTime" : 1615983368435,
+  "createTime" : 1645934424332,
   "updateTime" : 1615983368435,
-  "method" : "GET",
+  "lock" : null,
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/group",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
+  "paths" : [ ],
   "responseBody" : null,
   "description" : null,
-  "optionMap" : { }
+  "requestBodyDefinition" : null,
+  "responseBodyDefinition" : null
 }
 ================================
 // 分组后计算每组的数量

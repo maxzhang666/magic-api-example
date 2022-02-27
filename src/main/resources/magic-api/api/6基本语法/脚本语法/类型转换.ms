@@ -1,19 +1,25 @@
 {
+  "properties" : { },
   "id" : "7edfa3c0bb9247cba160b1eb45ec8825",
   "script" : null,
   "groupId" : "1534958e40ff4037a50bd9d3c25bceb5",
   "name" : "类型转换",
-  "createTime" : null,
+  "createTime" : 1645934424459,
   "updateTime" : null,
-  "method" : "GET",
+  "lock" : null,
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/convert",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
+  "paths" : [ ],
   "responseBody" : "{\n    \"code\": -1000,\n    \"message\": \"找不到方法 asInt(Integer)\",\n    \"data\": null,\n    \"timestamp\": 1615816481060,\n    \"executeTime\": 22\n}",
   "description" : null,
-  "optionMap" : { }
+  "requestBodyDefinition" : null,
+  "responseBodyDefinition" : null
 }
 ================================
 var a = 123;

@@ -4,13 +4,15 @@
   "script" : null,
   "groupId" : "d528abe95ca74f3cb195425afd7415af",
   "name" : "使用Spring中的Bean",
-  "createTime" : null,
+  "createTime" : 1645934424210,
   "updateTime" : 1632192554327,
   "lock" : null,
-  "method" : "GET",
+  "createBy" : "666",
+  "updateBy" : null,
   "path" : "/spring",
+  "method" : "GET",
   "parameters" : [ ],
-  "option" : "[]",
+  "options" : [ ],
   "requestBody" : "",
   "headers" : [ ],
   "paths" : [ ],
@@ -89,8 +91,7 @@
       "expression" : "",
       "children" : [ ]
     } ]
-  },
-  "optionMap" : { }
+  }
 }
 ================================
 import 'org.springframework.core.env.Environment' as env;   // 导入Spring中的bean
