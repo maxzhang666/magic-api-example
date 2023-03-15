@@ -7,10 +7,9 @@ import org.ssssssss.magicapi.core.interceptor.RequestInterceptor;
 import org.ssssssss.magicapi.core.model.ApiInfo;
 import org.ssssssss.magicapi.core.model.JsonBean;
 import org.ssssssss.magicapi.core.model.Options;
+import org.ssssssss.magicapi.core.servlet.MagicHttpServletRequest;
+import org.ssssssss.magicapi.core.servlet.MagicHttpServletResponse;
 import org.ssssssss.script.MagicScriptContext;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 
 /**
  * 自定义请求拦截器，可实现鉴权
@@ -27,7 +26,7 @@ public class CustomRequestInterceptor implements RequestInterceptor {
 	 * @param context	脚本变量信息
 	 */
 	@Override
-	public Object preHandle(ApiInfo info, MagicScriptContext context, HttpServletRequest request, HttpServletResponse response) throws Exception {
+	public Object preHandle(ApiInfo info, MagicScriptContext context, MagicHttpServletRequest request, MagicHttpServletResponse response) throws Exception {
 		Object user = null; // = XXXUtils.getUser(request);
 		logger.info("{} 请求接口：{}", user, info.getName());
 		// 接口选项配置了需要登录
@@ -54,7 +53,7 @@ public class CustomRequestInterceptor implements RequestInterceptor {
 	 * @param value 即将要返回到页面的值
 	 */
 	@Override
-	public Object postHandle(ApiInfo info, MagicScriptContext context, Object value, HttpServletRequest request, HttpServletResponse response) throws Exception {
+	public Object postHandle(ApiInfo info, MagicScriptContext context, Object value, MagicHttpServletRequest request, MagicHttpServletResponse response) throws Exception {
 		logger.info("{} 执行完毕，返回结果:{}", info.getName(), value);
 		return null;
 	}

@@ -4,8 +4,8 @@ import org.ssssssss.magicapi.core.context.MagicUser;
 import org.ssssssss.magicapi.core.exception.MagicLoginException;
 import org.ssssssss.magicapi.core.interceptor.Authorization;
 import org.ssssssss.magicapi.core.interceptor.AuthorizationInterceptor;
+import org.ssssssss.magicapi.core.servlet.MagicHttpServletRequest;
 
-import javax.servlet.http.HttpServletRequest;
 
 /**
  * 自定义UI界面鉴权
@@ -53,7 +53,7 @@ public class CustomUIAuthorizationInterceptor implements AuthorizationIntercepto
 	 * @return
 	 */
 	@Override
-	public boolean allowVisit(MagicUser magicUser, HttpServletRequest request, Authorization authorization) {
+	public boolean allowVisit(MagicUser magicUser, MagicHttpServletRequest request, Authorization authorization) {
 		if(authorization == Authorization.DELETE || authorization == Authorization.UPLOAD){
 			// 禁止上传和删除
 			return false;

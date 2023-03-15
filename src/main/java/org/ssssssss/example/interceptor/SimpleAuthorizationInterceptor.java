@@ -10,8 +10,8 @@ import org.ssssssss.magicapi.core.context.MagicUser;
 import org.ssssssss.magicapi.core.exception.MagicLoginException;
 import org.ssssssss.magicapi.core.interceptor.Authorization;
 import org.ssssssss.magicapi.core.interceptor.AuthorizationInterceptor;
+import org.ssssssss.magicapi.core.servlet.MagicHttpServletRequest;
 
-import javax.servlet.http.HttpServletRequest;
 import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
 import java.util.List;
@@ -91,7 +91,7 @@ public class SimpleAuthorizationInterceptor implements AuthorizationInterceptor 
      * 验证是否有权限访问功能
      */
     @Override
-    public boolean allowVisit(MagicUser magicUser, HttpServletRequest request, Authorization authorization) {
+    public boolean allowVisit(MagicUser magicUser, MagicHttpServletRequest request, Authorization authorization) {
         if(denyOptions==null){
             return true;
         }
