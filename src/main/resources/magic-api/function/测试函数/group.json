@@ -5,6 +5,10 @@
   "type" : "function",
   "parentId" : "0",
   "path" : "/test",
+  "createTime" : 1679877668156,
+  "updateTime" : null,
+  "createBy" : null,
+  "updateBy" : null,
   "paths" : [ ],
   "options" : [ ]
 }
