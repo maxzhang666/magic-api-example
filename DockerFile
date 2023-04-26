@@ -1,0 +1,7 @@
+FROM openjdk:17
+ADD ./target/magic-api-demo.jar /app/app.jar
+ADD ./target/magic-api-example-2.1.0.jar /app/magic-api-example-2.1.0.jar
+ADD ./src/main/resources/application.yml /app/conf/application.yml
+WORKDIR /app
+EXPOSE 9999
+ENTRYPOINT ["java","-jar","app.jar","--spring.config.location=./conf/application.yml"]
