@@ -1,7 +1,15 @@
-FROM openjdk:17
-ADD ./target/magic-api-demo.jar /app/app.jar
-ADD ./target/magic-api-example-2.1.0.jar /app/magic-api-example-2.1.0.jar
-ADD ./src/main/resources/application.yml /app/conf/application.yml
+FROM maven:3-amazoncorretto-17 AS builder
+WORKDIR /java_p
+COPY ./ /java_p
+RUN mvn install
+RUN mvn package
+
+FROM openjdk:17 AS final
+COPY --from=builder ./target/magic-api-demo.jar /app/app.jar
+COPY --from=builder ./target/magic-api-example-2.1.0.jar /app/magic-api-example-2.1.0.jar
+COPY --from=builder ./src/main/resources/application.yml /app/conf/application.yml
 WORKDIR /app
 EXPOSE 9999
+ENV TZ=Asia/Shanghai
+VOLUME ["/conf"]
 ENTRYPOINT ["java","-jar","app.jar","--spring.config.location=./conf/application.yml"]
