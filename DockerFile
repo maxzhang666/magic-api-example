@@ -5,9 +5,9 @@ RUN mvn install
 RUN mvn package
 
 FROM openjdk:17 AS final
-COPY --from=builder ./target/magic-api-demo.jar /app/app.jar
-COPY --from=builder ./target/magic-api-example-2.1.0.jar /app/magic-api-example-2.1.0.jar
-COPY --from=builder ./src/main/resources/application.yml /app/conf/application.yml
+COPY --from=builder /java_p/target/magic-api-demo.jar /app/app.jar
+COPY --from=builder /java_p/target/magic-api-example-2.1.0.jar /app/magic-api-example-2.1.0.jar
+COPY --from=builder /java_p/src/main/resources/application.yml /app/conf/application.yml
 WORKDIR /app
 EXPOSE 9999
 ENV TZ=Asia/Shanghai
